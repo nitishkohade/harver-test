@@ -43,7 +43,7 @@ class MergeImage {
               console.log("The file was saved!");
             });
         } catch(err) {
-          throw "Merging of images didn't work"
+          throw "For some reason merging didn't work"
         }
     }
 }
